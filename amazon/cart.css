@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+main{
+  margin-top: 120px;
+}
+
+/* Container for the shopping cart */
+.shopping-cart {
+  display: flex;
+  width: 100%;
+}
+.cart-item{
+  width: 800px;
+  margin: 20px;
+  background-color: white;
+  padding: 40px;
+  height: auto;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.summary{
+  width: 300px;
+  margin: 20px;
+  background-color: white;
+  padding: 40px;
+  height: 200px;
+   border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+.main-image{
+  width: 40%;
+}
+.main-topic{
+  width: 60%;
+  padding: 20px;
+}
+
+.total-border{
+  border-top: 2px solid black;
+  margin: 20px;
+}
+/* Product details section */
+.product-details {
+  padding: 20px;
+  border-right: 2px solid #eee;
+}
+
+/* Order summary section */
+.order-summary {
+  padding: 20px;
+}
+
+/* Styles for the product name */
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+  margin-top: -10px;
+}
+
+/* Styles for the price */
+.price {
+  font-size: 18px;
+  color: #e77509;
+  font-weight: bold;
+  margin: 20px;
+  margin-bottom: -20px;
+}
+
+/* Styles for the original price */
+.original-price {
+  text-decoration: line-through;
+  color: #777;
+  margin: 20px;
+}
+
+/* Styles for the in-stock label */
+.in-stock {
+  color: #2ecc71;
+  font-weight: bold;
+  margin: 20px;
+}
+
+/* Styles for the options section */
+.options {
+  margin: 20px;
+}
+.options a{
+  padding: 2px;
+  color: blue;
+  text-decoration: none;
+}
+
+/* Styles for the quantity input */
+.quantity-input {
+  width: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the subtotal */
+.subtotal {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.item{
+  margin-top: 10px;
+}
+.item div{
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+}
+
+.promo-code{
+  margin: 20px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+  width: 100%;
+  padding: 5px 90px;
+  background-color: #fac413;
+  border: 1.5px solid #fc9803;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

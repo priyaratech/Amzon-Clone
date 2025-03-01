@@ -1,0 +1,565 @@
+
+
+
+
+#main {
+  padding: 16px;
+  width: 100%;
+}
+
+/*MAIN BODY WEBSITE*/
+main{
+  width: 100%;
+}
+/*sider-img*/
+/* Slideshow container */
+.slideshow-container {
+  min-width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  
+  
+}
+.slideshow-container img{
+  height: 100%;
+  width: 100%;
+  
+  
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(105, 98, 98, 0.8);
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  display: flex;
+  overflow: hidden;
+  margin-top: 100px;
+  mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+  
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+/*Container offer*/
+.offer1{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 450px;
+}
+.offers{
+  margin: 10px;
+  background-color: #fdfbfb;
+  height: 370px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+.offers a span{
+  display: flex;
+}
+
+
+.offers p{
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.offers a{
+  font-size: 14px;
+  margin: 7px;
+
+}
+main{
+  background-color: #e6e3e3;
+}
+
+.offer2{
+  display: flex;
+  width: 100%;
+  margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*three solder*/
+.project-silder{
+  background-color: white;
+  margin: 0 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+  
+}
+.project-silder .products{
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  margin-top: 10px;
+}
+.project-silder .products img{
+max-width: 200px;
+max-height: 200px;
+margin-bottom: 20px;
+}
+.project-silder .products::-webkit-scrollbar{
+height: 8px;
+cursor: pointer;
+
+}
+.project-silder .products::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: white;
+}
+.project-silder .products::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #cccccc;
+}
+.project-silder .products::-webkit-scrollbar-thumb:hover{
+  background-color: #818181;
+}
+
+
+
+
+
+
+
+
+.slider-wrapper,.slider-wrapper1 {
+  position: relative;
+}
+.slider-wrapper1 .slide-button1 {
+  position: absolute;
+  top: 50%;
+  outline: none;
+  border: none;
+
+  z-index: 5;
+  color: black;
+  display: flex;
+  cursor: pointer;
+  font-size: 2.2rem;
+  padding: 25px 20px;
+  border: none;
+  background-color: rgba(255, 255,255, 0.4);
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+.slider-wrapper1 .slide-button1:hover {
+  background: white;
+}
+.slider-wrapper1 .slide-button#prev-slide {
+  left: -20px;
+  display: none;
+}
+.slider-wrapper1 .slide-button1#next-slide {
+  right: -20px;
+}
+.slider-wrapper, .image-list1 {
+  display: flex;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 18px;
+  font-size: 0;
+  list-style: none;
+  margin-bottom: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  width: 100%;
+}
+.slider-wrapper1 .image-list1::-webkit-scrollbar {
+  display: none;
+}
+ .image-item,.image-item1 {
+  height: 200px;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+/*four silder*/
+.project-silder-with-price{
+  background-color: white;
+  margin: 0 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.project-silder-with-price .project{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  margin-top: 10px;
+}
+.project-silder-with-price .project::-webkit-scrollbar{
+  height: 8px;
+  cursor: pointer;
+}
+.project-silder-with-price .project::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: white;
+}
+.project-silder-with-price .project::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #cccccc;
+}
+.project-silder-with-price .project::-webkit-scrollbar-thumb:hover{
+  background-color: #818181;
+}
+/*button side scrooll phtos*/
+.btn-container-project{
+position: absolute;
+width: 95%;
+display: flex;
+margin-top: 50px;
+justify-content: space-between;
+}
+
+.botton-moveing{
+  padding: 20px 10px;
+  border: none;
+  background-color: rgba(255, 255,255, 0.4);
+}
+
+
+
+.project-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  min-width: 210px;
+}
+.project-cards img{
+  width: 150px;
+  height: 150px;
+  margin: 0 ,50px;
+}
+.project-offer p{
+  background-color: #be0b3b;
+  color: white;
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 2px;
+  margin: 8px 0;
+  font-size: 13px;
+}
+.project-offer span{
+  color:  #be0b3b;
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.Product-price{
+  color: gray;
+  font-size: 10px;
+}
+.Product-price span{
+  font-size: 15px;
+}
+.project-cards h4{
+  color: #525252;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+
+/*six contener*/
+.offer3{
+  display: flex;
+  width: 100%;
+  }
+  .offers1{
+    margin: 10px;
+    background-color: #fdfbfb;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-left: 15px;
+  }
+  .offers1 a span{
+    display: flex;
+  }
+  
+  
+  .offers1 p{
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .offers1 a{
+    font-size: 14px;
+    margin: 7px;
+  
+  }
+
+
+
+  
+.slider-wrapper {
+  position: relative;
+}
+.slider-wrapper .slide-button {
+  position: absolute;
+  top: 50%;
+  outline: none;
+  border: none;
+  z-index: 5;
+  color: black;
+  display: flex;
+  cursor: pointer;
+  font-size: 2.2rem;
+  padding: 25px 20px;
+  border: none;
+  background-color: rgba(255, 255,255, 0.4);
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+.slider-wrapper .slide-button:hover {
+  background: white;
+}
+.slider-wrapper .slide-button#prev-slide {
+  left: -20px;
+  display: none;
+}
+.slider-wrapper .slide-button#next-slide {
+  right: -20px;
+}
+.slider-wrapper .image-list {
+  display: flex;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 18px;
+  font-size: 0;
+  list-style: none;
+  margin-bottom: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  width: 100%;
+}
+.slider-wrapper .image-list::-webkit-scrollbar {
+  display: none;
+}
+ .image-item {
+
+  height: 200px;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+.container .slider-scrollbar {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.slider-scrollbar .scrollbar-track {
+  background: #ccc;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  position: relative;
+}
+.slider-scrollbar:hover .scrollbar-track {
+  height: 4px;
+}
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  cursor: grab;
+  border-radius: inherit;
+}
+.slider-scrollbar .scrollbar-thumb:active {
+  cursor: grabbing;
+  height: 8px;
+  top: -2px;
+}
+.slider-scrollbar .scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+}
+/* Styles for mobile and tablets */
+@media only screen and (max-width: 1023px) {
+  .slider-wrapper .slide-button {
+    display: none !important;
+  }
+  .slider-wrapper .image-list {
+    gap: 10px;
+    margin-bottom: 15px;
+    scroll-snap-type: x mandatory;
+  }
+  .slider-wrapper .image-list .image-item {
+    width: 200px;
+    height: 200px;
+  }
+  .slider-scrollbar .scrollbar-thumb {
+    width: 20%;
+  }
+}
+
+
+/* main area */
+.category_header{
+  color:white;
+  margin:0.25rem 0;
+  font-weight:bold;
+}
+.data_preview_area {
+  overflow-x:auto;
+  white-space:nowrap;
+  word-break: break-all;
+}
+.data_preview_frame {
+  width:calc(100% / 5); 
+  display:inline-block;
+  white-space:normal;
+  vertical-align:middle;
+}
+.data_preview_content {
+  background:white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.data_preview_content img{
+  width: 300px;
+  margin: 20px;
+  height: 200px;
+}
+
+.container{
+  width: 100%;
+}
+
+/* Control Area */
+
+.preview_control_area {
+  position:relative;
+}
+.previous_button {
+  position:absolute;
+  top:50%;
+  left:0;
+  transform:translateY(-50%);
+}
+.next_button {
+  position:absolute;
+  top:50%;
+  right:0;
+  transform:translateY(-50%);
+}
+.control_button {
+  border-radius:0.25rem;
+  margin:0 0.25rem;
+  cursor:pointer;
+  opacity:0.8;
+  transition:0.2s;
+  padding: 30px 20px;
+  border: none;
+  background-color: rgba(247, 247, 247, 0.8);
+  color: #000000;
+}
+.control_button:hover {
+  background:rgb(255, 255, 255);
+  color:rgb(10, 10, 10);
+  opacity:1;    
+  transition:0.2s;
+}
+
+.data_preview_area::-webkit-scrollbar{
+  height: 5px;
+  cursor: grabbing;
+}
+.data_preview_area::-webkit-scrollbar-track{
+  height: 5px;
+  background-color: rgb(247, 243, 243);
+}
+.data_preview_area::-webkit-scrollbar-thumb{
+  height: 5px;
+  background-color: #464040;
+}
+.data_preview_area::-webkit-scrollbar-thumb:hover{
+  background-color: #0c0c0c;
+  cursor: grabbing;
+  height: 8px;
+}
+
+
+.container1 {
+  width: 95%;
+  background-color: white;
+  margin: 15px;
+  padding:20px;
+}

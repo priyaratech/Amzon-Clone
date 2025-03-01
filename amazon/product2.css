@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+main {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.product-container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+
+}
+
+.product-images {
+}
+#main-image{
+  height: 600px;
+  margin: 30px;
+}
+
+.product-images img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.thumbnail-images {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.thumbnail:hover {
+  border-color: #ddd;
+}
+
+.product-details {
+  flex: 1;
+  width: 50%;
+}
+
+.product-title {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.rating {
+  color: #FFA41C;
+  margin: 5px 0;
+}
+
+.rating a {
+  color: #007185;
+  text-decoration: none;
+}
+
+.category, .price, .offers, .delivery-warranty, .specifications, .about-item, .additional-options, .purchase-options, .exchange-offer {
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 22px;
+  color: #B12704;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #555;
+  margin-left: 10px;
+}
+
+.emi {
+  color: #007185;
+  display: block;
+  margin-top: 5px;
+}
+
+.offers, .delivery-warranty {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.specifications, .about-item {
+  margin-top: 20px;
+}
+
+.specifications ul, .about-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.specifications li, .about-item li {
+  margin-bottom: 5px;
+}
+
+.additional-options button, #add-to-cart, #buy-now {
+  background-color: #FF9900;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.additional-options button:hover, #add-to-cart:hover, #buy-now:hover {
+  background-color: #e68a00;
+}
+
+.exchange-offer {
+  margin-top: 20px;
+}
+
+.related-products, .product-description, .review-search, .comparison {
+  margin-top: 30px;
+}
+
+.product-card, .comparison-card {
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.product-card img, .comparison-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card button, .comparison-card button {
+  background-color: #FF9900;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover, .comparison-card button:hover {
+  background-color: #e68a00;
+}
+
+.review-search input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.review-search button {
+  padding: 10px;
+  border: none;
+  background-color: #FF9900;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.review-search button:hover {
+  background-color: #e68a00;
+}

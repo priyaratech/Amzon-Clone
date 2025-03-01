@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Main*/
+main{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lang-div-contiener input{
+  margin-bottom: 10px;
+}
+label{
+  font-size: 14px;
+}
+.EN{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.HI{
+  border-top: 1px solid rgb(146, 142, 142);
+  margin-top: 10px;
+}
+
+.btn button{
+  padding: 7px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 5px;
+  box-shadow: 0 0 2px black;
+}
+.btn button:active{
+outline: 1px solid blue;
+outline-offset: 3px;
+}
+
